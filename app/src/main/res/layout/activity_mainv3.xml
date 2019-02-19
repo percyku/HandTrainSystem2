@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/secretAcross"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true">
+
+
+    <LinearLayout
+        android:id="@+id/middle_top"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/top"
+        android:orientation="horizontal"
+        app:layout_heightPercent="4%"
+        app:layout_widthPercent="100%">
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/middle"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/middle_top"
+        android:orientation="horizontal"
+        app:layout_heightPercent="30%"
+        app:layout_widthPercent="100%">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/git_game1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:onClick="OnGame1"
+                android:src="@drawable/game1"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/git_game2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:onClick="OnGame2"
+                android:src="@drawable/game2"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/middle_bottom"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/middle"
+        android:orientation="horizontal"
+        app:layout_heightPercent="6%"
+        app:layout_widthPercent="100%">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="握力運動"
+                android:textSize="25sp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="上肢運動"
+                android:textSize="25sp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/bottom"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/middle_bottom"
+        android:gravity="top"
+        android:orientation="horizontal"
+        app:layout_heightPercent="30%"
+        app:layout_widthPercent="100%">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/git_gameˇ"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:onClick="OnGame3"
+                android:src="@drawable/game3"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/git_record"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:onClick="OnRecord"
+                android:src="@drawable/record"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/botton_text"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/bottom"
+        android:orientation="horizontal"
+        app:layout_heightPercent="6%"
+        app:layout_widthPercent="100%">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="伸展運動"
+                android:textSize="25sp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="個人紀錄"
+                android:textSize="25sp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/app_maincontent_title"
+        android:gravity="top"
+        android:orientation="vertical"
+        app:layout_heightPercent="25%"
+        app:layout_widthPercent="100%">
+
+        <android.support.percent.PercentRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <View
+                android:id="@+id/top_1"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_heightPercent="100%"
+                app:layout_widthPercent="5%"/>
+
+
+            <LinearLayout
+                android:id="@+id/top_2"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/top_1"
+                android:orientation="vertical"
+                app:layout_heightPercent="100%"
+                app:layout_widthPercent="55%">
+
+                <android.support.percent.PercentRelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:id="@+id/maincontext_title"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.39"
+                        android:gravity="center"
+                        android:text="10:17"
+                        android:textColor="@color/white"
+                        android:textSize="60sp"
+                        android:textStyle="bold"
+                        app:layout_heightPercent="60%"
+                        app:layout_widthPercent="100%"/>
+
+
+                    <LinearLayout
+                        android:id="@+id/top_2_bottom"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_below="@+id/maincontext_title"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal"
+                        app:layout_heightPercent="40%"
+                        app:layout_widthPercent="100%">
+
+                        <TextView
+                            android:id="@+id/maintext_day1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="top"
+                            android:layout_weight="0.7"
+                            android:text="Saturday"
+                            android:textColor="@color/white"
+                            android:textSize="25sp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:id="@+id/maintext_day2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="top"
+                            android:layout_weight="0.3"
+                            android:text="05-07"
+                            android:textColor="@color/white"
+                            android:textSize="25sp"
+                            android:textStyle="bold"/>
+                    </LinearLayout>
+
+                </android.support.percent.PercentRelativeLayout>
+
+
+            </LinearLayout>
+
+
+            <View
+                android:id="@+id/top_3"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_toEndOf="@+id/top_2"
+                app:layout_heightPercent="100%"
+                app:layout_widthPercent="10%"/>
+
+            <LinearLayout
+                android:id="@+id/top_4"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:orientation="horizontal"
+                app:layout_heightPercent="100%"
+                app:layout_widthPercent="30%">
+
+                <android.support.percent.PercentRelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:id="@+id/top_4_top"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:orientation="horizontal"
+                        app:layout_heightPercent="60%"
+                        app:layout_widthPercent="100%">
+
+                        <ImageView
+                            android:id="@+id/maincontext_Weather"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:src="@drawable/icon_0"
+                            android:text="10:17"
+                            android:textColor="@color/white"/>
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:id="@+id/maintext_temperature"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_below="@+id/top_4_top"
+                        android:layout_gravity="center_horizontal"
+                        android:text="23 °C"
+                        android:textColor="@color/white"
+                        android:textSize="30sp"
+                        android:textStyle="bold"
+                        app:layout_heightPercent="40%"
+                        app:layout_widthPercent="100%"/>
+
+
+                </android.support.percent.PercentRelativeLayout>
+
+
+            </LinearLayout>
+
+
+        </android.support.percent.PercentRelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_gravity="bottom"
+            android:background="@color/app_maincontent_title_buttom"/>
+
+    </LinearLayout>
+
+
+</android.support.percent.PercentRelativeLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout
+    android:id="@+id/record_secretAcross"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundv5">
+
+    <View
+        android:id="@+id/record_1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="2%"
+        app:layout_widthPercent="100%"/>
+
+    <LinearLayout
+        android:id="@+id/layout_toolbar"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="10%"
+        app:layout_widthPercent="100%"
+        tools:context="com.trainsystem.upperlimb.senior.handtrainsystem2.MainActivity"
+        android:layout_below="@id/record_1">
+
+    <!-- our toolbar -->
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="個人紀錄"
+            android:paddingTop="20dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="30sp" />
+
+    </android.support.v7.widget.Toolbar>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/record_2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="2%"
+        app:layout_widthPercent="100%"
+        android:layout_below="@+id/layout_toolbar"/>
+
+    <LinearLayout
+        android:id="@+id/layout_tablayout"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="10%"
+        app:layout_widthPercent="100%"
+        android:layout_below="@id/record_2"
+        tools:context="com.trainsystem.upperlimb.senior.handtrainsystem2.MainActivity">
+
+    <!-- our tablayout to display tabs  -->
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:animateLayoutChanges="@color/white"
+        app:tabIndicatorColor="@color/white"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_page"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="76%"
+        app:layout_widthPercent="100%"
+        android:layout_below="@id/layout_tablayout"
+        tools:context="com.trainsystem.upperlimb.senior.handtrainsystem2.MainActivity">
+
+    <!-- View pager to swipe views -->
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+
+</android.support.percent.PercentRelativeLayout>

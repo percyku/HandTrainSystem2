@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/secretAcross"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:background="@drawable/backgroundv4">
+
+    <LinearLayout
+        android:id="@+id/top_top"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentStart="true"
+        android:orientation="horizontal"
+        app:layout_heightPercent="2%"
+        app:layout_widthPercent="100%">
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="top"
+        android:orientation="vertical"
+        app:layout_heightPercent="24%"
+        app:layout_widthPercent="100%">
+
+        <android.support.percent.PercentRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <View
+                android:id="@+id/top_1"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_heightPercent="100%"
+                app:layout_widthPercent="4%"/>
+
+
+            <LinearLayout
+                android:id="@+id/top_2"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_toEndOf="@+id/top_1"
+                android:orientation="vertical"
+                app:layout_heightPercent="100%"
+                app:layout_widthPercent="54%">
+
+                <android.support.percent.PercentRelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:id="@+id/maincontext_title"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:text="10:17"
+                        android:gravity="left|bottom"
+                        android:textColor="@color/white"
+                        android:textSize="75sp"
+                        android:textStyle="bold"
+                        app:layout_heightPercent="70%"
+                        app:layout_widthPercent="100%" />
+
+
+                    <TextView
+                        android:id="@+id/maintext_day"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:text="Sunday 05-07"
+                        android:layout_below="@+id/maincontext_title"
+                        android:gravity="left|top"
+                        android:textColor="@color/white"
+                        android:textSize="30sp"
+                        android:textStyle="bold"
+                        app:layout_heightPercent="30%"
+                        app:layout_widthPercent="100%"
+                        android:paddingLeft="10dp"/>
+
+
+                </android.support.percent.PercentRelativeLayout>
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/top_3"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/top_2"
+                android:orientation="vertical"
+                app:layout_heightPercent="100%"
+                app:layout_widthPercent="38%">
+
+
+                <android.support.percent.PercentRelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/maincontext_Weather"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/icon_0"
+                        app:layout_heightPercent="60%"
+                        app:layout_widthPercent="100%"
+                        android:gravity="center_vertical|bottom" />
+
+                    <LinearLayout
+                        android:id="@+id/top_5"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:orientation="horizontal"
+                        app:layout_heightPercent="40%"
+                        app:layout_widthPercent="100%"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentStart="true">
+
+                        <android.support.percent.PercentRelativeLayout
+
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/maintext_temperature"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:text="23"
+                            android:textColor="@color/white"
+                            android:textSize="60sp"
+                            android:textStyle="bold"
+                            app:layout_heightPercent="100%"
+                            app:layout_widthPercent="60%"/>
+
+                        <ImageView
+                            android:id="@+id/maincontext_c"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:src="@drawable/c0"
+                            android:gravity="right|bottom"
+                            app:layout_heightPercent="100%"
+                            app:layout_widthPercent="40%"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true" />
+
+                        </android.support.percent.PercentRelativeLayout>
+
+
+                    </LinearLayout>
+
+
+
+                </android.support.percent.PercentRelativeLayout>
+
+
+
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/top_4"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_heightPercent="100%"
+                app:layout_widthPercent="4%"/>
+
+        </android.support.percent.PercentRelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/middle"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/top"
+        android:orientation="horizontal"
+        app:layout_heightPercent="35%"
+        app:layout_widthPercent="100%">
+
+
+        <View
+            android:id="@+id/middle_1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_heightPercent="100%"
+            app:layout_widthPercent="2%"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.47"
+            android:orientation="vertical">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/git_game1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:onClick="OnGame1"
+                android:src="@drawable/a" />
+
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/middle_2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_heightPercent="100%"
+            app:layout_widthPercent="2%"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.47"
+            android:orientation="vertical">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/git_game2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:onClick="OnGame2"
+                android:src="@drawable/b"/>
+
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/middle_3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_heightPercent="100%"
+            app:layout_widthPercent="2%"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/middle_bottom"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/middle"
+        android:orientation="horizontal"
+        app:layout_heightPercent="2%"
+        app:layout_widthPercent="100%">
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/bottom"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/middle_bottom"
+        android:gravity="top"
+        android:orientation="horizontal"
+        app:layout_heightPercent="35%"
+        app:layout_widthPercent="100%">
+
+        <View
+            android:id="@+id/bootom_1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_heightPercent="100%"
+            app:layout_widthPercent="2%"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.47"
+            android:orientation="vertical">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/git_gameˇ"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:onClick="OnGame3"
+                android:src="@drawable/c"/>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/bootom_2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_heightPercent="100%"
+            app:layout_widthPercent="2%"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.47"
+            android:orientation="vertical">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/git_record"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:onClick="OnRecord"
+                android:src="@drawable/d"/>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/bootom_3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_heightPercent="100%"
+            app:layout_widthPercent="2%"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/botton_text"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/bottom"
+        android:orientation="horizontal"
+        app:layout_heightPercent="2%"
+        app:layout_widthPercent="100%">
+
+
+
+
+    </LinearLayout>
+
+
+</android.support.percent.PercentRelativeLayout>

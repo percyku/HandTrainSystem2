@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/toolbar"
+    android:background="@color/colorPrimary"
+    app:navigationIcon="@mipmap/ic_launcher">
+    <!-- 主要獨立出來extview是因為要讓他至中-->
+    <!--但是這邊就不行置終，彈性較差，所以獨立出來用會比較好-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="這邊的標題是可以自訂的"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"/>
+
+
+</android.support.v7.widget.Toolbar>

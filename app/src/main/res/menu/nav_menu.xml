@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--checkableBehavior是為了單一點擊，不讓他複選。icon這邊也可以依你製作的圖片放入，放入位置應該是在drawable-->
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_text1"
+            android:icon="@mipmap/ic_launcher"
+            android:title="text1"
+            />
+        <item
+            android:id="@+id/nav_text2"
+            android:icon="@mipmap/ic_launcher"
+            android:title="text2"
+            /><item
+        android:id="@+id/nav_text3"
+        android:icon="@mipmap/ic_launcher"
+        android:title="text3"
+        />
+
+
+
+    </group>
+
+    <!--接者製作子項目-->
+
+    <!--這邊還看不出來是因為等等要放在剛剛NavigationView，就會呈現出抽屜的選項了！-->
+    <item android:title="subtitle">
+
+        <menu>
+            <item
+                android:id="@+id/nav_sub_text1"
+                android:icon="@mipmap/ic_launcher"
+                android:title="nav_sub_text1"/>
+            <item
+                android:id="@+id/nav_sub_text2"
+                android:icon="@mipmap/ic_launcher"
+                android:title="nav_sub_text2"/>
+
+        </menu>
+
+
+
+
+    </item>
+
+</menu>

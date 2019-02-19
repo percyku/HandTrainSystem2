@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">HandTrainSystem2</string>
+
+
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+
+    <string name="game1">握力運動</string>
+    <string name="game2">上肢擺動</string>
+    <string name="game3">伸展運動</string>
+    <string name="record">個人紀錄</string>
+
+
+    <string name="dialog_arduino_title">與手套進行遊戲</string>
+    <string name="dialog_arduino_content">請點擊左下方連線，進行遊戲，或是右下方的離開此遊戲</string>
+    <string name="dialog_arduino_start">連線</string>
+    <string name="dialog_arduino_leave">離開</string>
+
+
+    <string name="dialog_game_start">開始遊戲</string>
+    <string name="dialog_game_leave">離開遊戲</string>
+    <string name="dialog_game_restart">再次挑戰</string>
+    <string name="dialog_game_defeat">挑戰失敗</string>
+
+
+    <string name="dialog_game_title1">蝴蝶採蜜＿教學</string>
+    <string name="dialog_game_title2">蜜蜂採蜜＿教學</string>
+    <string name="dialog_game_title3">螞蟻上樹＿教學</string>
+
+    <string name="dialog_game_start_content">歡迎來到蝴蝶採蜜 請跟著畫面的動作進行遊戲</string>
+    <string name="dialog_game2_start_content">歡迎來到蜜蜂採蜜 請跟著畫面的動作進行遊戲</string>
+    <string name="dialog_game3_start_content">歡迎來到螞蟻上樹 左手請跟著畫面的動作進行遊戲</string>
+
+
+
+
+    <string name="temperature">Temperature</string>
+    <string name="condition">Condition</string>
+    <string name="location">Location</string>
+    <string name="powered_by_yahoo">powered by Yahoo!</string>
+    <string name="condition_icon">Condition Icon</string>
+    <string name="loading">Loading&#8230;</string>
+    <string name="temperature_output">%1$d&#176;%2$s</string>
+    <string name="update_location">Update Location</string>
+    <string name="settings">Settings</string>
+    <string name="cache_exception">No Cached Weather Data</string>
+    <string name="location_permission_needed">Device location is needed for Weather GeoLocation</string>
+    <string name="disable_geolocation">Change Settings</string>
+    <string name="day">Day</string>
+    <string name="high">High</string>
+    <string name="low">Low</string>
+
+</resources>
