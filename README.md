@@ -47,4 +47,4 @@
 
   - 此應用程式應用在 [結合個人化健康傳播之遊戲式上肢訓練系統實作](https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dnclcdr&s=id=%22105NTPT0787030%22.&searchmode=basic) 的碩士論文
   - 需搭配 [穿戴裝置](https://github.com/percyku/MyTrainningSystem) 進行連線操作
-  - 目前因為年久失修，會與當前Android 版本不相容
+  - 於2017創建，因為年久失修，會與當前Android 版本不相容
