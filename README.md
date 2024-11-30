@@ -1,6 +1,6 @@
 # HandTrainSystem
 
-此行動應用程式針對高齡者設計上肢訓練遊戲有握力運動、上肢擺動、伸展運動三款遊戲，透過藍芽與 [**穿戴式裝置**](https://github.com/percyku/MyTrainningSystem/tree/master) 進行連線操作。
+此App針對高齡者設計上肢訓練遊戲有握力運動、上肢擺動、伸展運動三款遊戲，透過藍芽與 [**穿戴式裝置**](https://github.com/percyku/MyTrainningSystem/tree/master) 進行連線操作。
 
 另外運用Google語音，提示引導使用者進行操作，最後使用SQLite進行數據的紀錄，提供觀看個人紀錄頁面。
 
