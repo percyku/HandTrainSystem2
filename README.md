@@ -35,3 +35,8 @@
   - 伸展運動
 
     [![IMAGE ALT TEXT](https://i9.ytimg.com/vi/3hkQ9sSMYZ4/mqdefault.jpg?sqp=CLijq7oG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgZShlMA8=&rs=AOn4CLAQg7eLXKkmzpe8q5Sx0ewSx-M8KQ)](https://www.youtube.com/watch?v=3hkQ9sSMYZ4)
+
+# 備註
+
+  - 此應用程式應用在 [結合個人化健康傳播之遊戲式上肢訓練系統實作](https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dnclcdr&s=id=%22105NTPT0787030%22.&searchmode=basic) 的碩士論文
+  - 需搭配 [穿戴裝置](https://github.com/percyku/MyTrainningSystem) 進行連線操作
