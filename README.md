@@ -24,22 +24,21 @@
 
   - 藍牙連線
 
-    [![IMAGE ALT TEXT](https://i9.ytimg.com/vi_webp/xkRNmZLg0X0/mqdefault.webp?v=674ace33&sqp=CLScq7oG&rs=AOn4CLBF95gyCsrEFg4Lyff0M1M0VozqpA)](https://www.youtube.com/clip/Ugkx6VioGL2gjKUZz6PCWc5aswEB-x6eQBMP)
-    
+    [<img src="images/video_1.png">](https://www.youtube.com/clip/Ugkx6VioGL2gjKUZz6PCWc5aswEB-x6eQBMP)
 
   - 握力運動
 
-    [![IMAGE ALT TEXT](https://i9.ytimg.com/vi/okLAwjCwQVI/mqdefault.jpg?sqp=CLijq7oG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGEEgYShyMA8=&rs=AOn4CLBEO-D-yNjldyZAYfIEQwGFM1qjaw)](https://www.youtube.com/watch?v=okLAwjCwQVI)
+    [<img src="images/video_2.png">](https://www.youtube.com/watch?v=okLAwjCwQVI)
 
 
   - 上肢擺動
     
-    [![IMAGE ALT TEXT](https://i9.ytimg.com/vi/VyT2R-tDzvs/mqdefault.jpg?sqp=CLijq7oG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGEgZShKMA8=&rs=AOn4CLAPaz2N7GIa_0P5BgewQ8OUI84IWQ)](https://www.youtube.com/watch?v=VyT2R-tDzvs)
+    [<img src="images/video_3.png">](https://www.youtube.com/watch?v=VyT2R-tDzvs)
 
 
   - 伸展運動
 
-    [![IMAGE ALT TEXT](https://i9.ytimg.com/vi/3hkQ9sSMYZ4/mqdefault.jpg?sqp=CLijq7oG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgZShlMA8=&rs=AOn4CLAQg7eLXKkmzpe8q5Sx0ewSx-M8KQ)](https://www.youtube.com/watch?v=3hkQ9sSMYZ4)
+    [<img src="images/video_4.png">](https://www.youtube.com/watch?v=3hkQ9sSMYZ4)
 
 
 
